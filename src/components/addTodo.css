@@ -1,0 +1,39 @@
+.add-todo {
+  position:fixed;
+  width:100%;
+  left:0;
+  height:8rem;
+  bottom:0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index:2;
+  background: #eee;
+}
+
+.add-todo:after{
+  content:"";
+  position:absolute;
+  top:0;
+  left:5%;
+  width:90%;
+  height:1px;
+  background: #ccd0ed;
+}
+
+.btn{
+  margin-left: 2rem;
+}
+
+.add-todo-inner{
+  display:flex;
+  align-items: center;
+  width:45%;
+  margin:0 auto;
+}
+
+.add-todo-input{
+  flex-grow:1;
+
+}

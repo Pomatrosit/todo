@@ -1,0 +1,21 @@
+.wrapper{
+  width:90%;
+  margin:0 auto;
+  max-width:1800px;
+}
+
+.title{
+  margin-top:2rem;
+  text-align: center;
+  color:#007bff;
+}
+
+hr{
+  background:#ccd0ed;
+}
+
+body{
+  background: #eee;
+  position:relative;
+  z-index:1;
+}
